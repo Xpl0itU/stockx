@@ -1,12 +1,12 @@
-package edu.badpals.item;
+package edu.badpals.stockx.item;
 
-public class Ask implements Offer {
+public class Bid implements Offer {
     String size;
-    Integer ask;
+    Integer bid;
 
-    public Ask(String size, Integer ask) {
+    public Bid(String size, Integer bid) {
         this.size = size;
-        this.ask = ask;
+        this.bid = bid;
     }
 
     public String size() {
@@ -14,11 +14,11 @@ public class Ask implements Offer {
     }
 
     public int value() {
-        return ask;
+        return bid;
     }
 
     public int compareTo(Offer offer) {
-        return this.ask.compareTo(offer.value());
+        return this.bid.compareTo(offer.value());
     }
 
     @Override

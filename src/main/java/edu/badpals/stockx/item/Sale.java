@@ -1,4 +1,4 @@
-package edu.badpals.item;
+package edu.badpals.stockx.item;
 
 public class Sale implements Offer {
     String size;

@@ -1,10 +1,8 @@
-package edu.badpals.criteria;
+package edu.badpals.stockx.criteria;
 
-import edu.badpals.item.Bid;
-import edu.badpals.item.Item;
-import edu.badpals.item.Offer;
+import edu.badpals.stockx.item.Item;
+import edu.badpals.stockx.item.Offer;
 
-import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 

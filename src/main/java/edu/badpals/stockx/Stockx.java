@@ -1,7 +1,7 @@
-package edu.badpals;
+package edu.badpals.stockx;
 
-import edu.badpals.criteria.*;
-import edu.badpals.item.*;
+import edu.badpals.stockx.criteria.*;
+import edu.badpals.stockx.item.*;
 
 import java.util.List;
 
